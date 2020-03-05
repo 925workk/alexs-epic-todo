@@ -9,7 +9,7 @@
           <div class="col-md-4">
             <img src="../../public/images/logo.png" alt="logo" style="width: 110px;" class="mb-4">
             <br/>
-            <h1>Vant4ge's Epic To Do App</h1>
+            <h1>Alex's Epic To Do App</h1>
             <img src="../../public/images/welcome-center.png" alt="man" style="height: 160px;" class="both mb-4">
             <br/>
             <h4 class="mb-5">To do lists provide your team clarity and focus. </h4>

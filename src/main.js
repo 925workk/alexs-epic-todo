@@ -13,14 +13,14 @@ Vue.config.productionTip = false
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB9-_--3deCY1AWUkF-j0o57MvU81qiOuc",
-  authDomain: "vant4ge-todo-69453.firebaseapp.com",
-  databaseURL: "https://vant4ge-todo-69453.firebaseio.com",
-  projectId: "vant4ge-todo-69453",
-  storageBucket: "vant4ge-todo-69453.appspot.com",
-  messagingSenderId: "554180825237",
-  appId: "1:554180825237:web:22159c4bbaecb08d890b9c",
-  measurementId: "G-7W74R6Q3RD"
+  apiKey: "AIzaSyB3gVeRZwKt_DXJej_V1HBe3MzCNq9Nvg4",
+  authDomain: "todo-c1c1c.firebaseapp.com",
+  databaseURL: "https://todo-c1c1c.firebaseio.com",
+  projectId: "todo-c1c1c",
+  storageBucket: "todo-c1c1c.appspot.com",
+  messagingSenderId: "652730197561",
+  appId: "1:652730197561:web:99da64ae1a7dc708994fe8",
+  measurementId: "G-6GB37CHL79"
 };
 
 firebase.initializeApp(firebaseConfig);

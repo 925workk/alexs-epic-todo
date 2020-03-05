@@ -1,0 +1,10 @@
+[debug] [2020-03-05T22:30:01.642Z] ----------------------------------------------------------------------
+[debug] [2020-03-05T22:30:01.643Z] Command:       /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/firebase init
+[debug] [2020-03-05T22:30:01.643Z] CLI Version:   7.14.0
+[debug] [2020-03-05T22:30:01.643Z] Platform:      darwin
+[debug] [2020-03-05T22:30:01.643Z] Node Version:  v12.4.0
+[debug] [2020-03-05T22:30:01.644Z] Time:          Thu Mar 05 2020 15:30:01 GMT-0700 (Mountain Standard Time)
+[debug] [2020-03-05T22:30:01.644Z] ----------------------------------------------------------------------
+[debug] [2020-03-05T22:30:01.644Z] 
+[debug] [2020-03-05T22:30:01.651Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-05T22:30:01.651Z] > attempting to authenticate via app default credentials
