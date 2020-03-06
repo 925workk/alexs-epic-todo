@@ -1,7 +1,7 @@
 
 ---
 ### VUE TO DO APP
-A to do list website where one can log in, register, and add tasks to do. Once a task is added, users are able to mark them as completed, edit them, filter them, or remove them. Clone the repo and run "npm install" followed by "npm run serve."
+[Click here for live site.](http://difficult-attraction.surge.sh/) A to do list website where one can log in, register, and add tasks to do. Once a task is added, users are able to mark them as completed, edit them, filter them, or remove them. Clone the repo and run "npm install" followed by "npm run serve."
 
 ---
 ### Project Goals
@@ -13,7 +13,7 @@ A to do list website where one can log in, register, and add tasks to do. Once a
 ---
 ### Technology Used
 * HTML | CSS | Javascript
-* Heroku
+* Surge
 * Vue
 * Bootstrap
 * Firebase/Firestore

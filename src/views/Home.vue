@@ -13,7 +13,7 @@
             <img src="../../public/images/welcome-center.png" alt="man" style="height: 160px;" class="both mb-4">
             <br/>
             <h4 class="mb-5">To do lists provide your team clarity and focus. </h4>
-            <a href="/todoapp"><button type="button" class="btn btn-primary btn-lg mb-5">Get Started</button></a>
+            <router-link to="/todoapp"><button type="button" class="btn btn-primary btn-lg mb-5">Get Started</button></router-link>
             <br />
             <router-link to="/login">Login</router-link>
             <br />
@@ -29,8 +29,37 @@
 </template>
 
 <script>
+import * as firebase from "firebase/app";
+import "firebase/auth";
+
 export default {
- 
+    created(){
+        firebase.auth().onAuthStateChanged(user =>{
+
+            this.loggedIn = !!user;
+
+        })
+    },
+    data(){
+        return{
+            email: "",
+            password: "",
+            error:"",
+            loggedIn: false
+        }
+    },
+    methods:{
+        async pressed(){
+            try{
+                const val = await firebase.auth().signInWithEmailAndPassword(this.email, this.password)
+                console.log(val)
+                this.$router.replace({name: "todoapp"})
+            } catch(err){
+                console.log(err)
+            }
+
+        }
+    }
 }
 </script>
 
